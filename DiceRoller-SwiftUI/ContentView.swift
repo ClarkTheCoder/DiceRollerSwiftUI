@@ -19,9 +19,8 @@ struct ContentView: View {
                 HStack {
                     DiceView(diceNumber: 1)
                     DiceView(diceNumber: 2)
-                        
                 }
-            
+                .padding(.horizontal)
             }
         }
     }
